@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    ;
+}
+
+.body {
+    width: 100%;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+img {
+    width: 20%;
+}
+
+form {
+    width: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px #c4c4c4;
+    margin-bottom: 60px;
+}
+
+header {
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+header p {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #606770;
+}
+
+.fullname {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.fullname input {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    margin: 5px 0;
+}
+
+.email-pass {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-pass input {
+    width: 410px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    margin: 1px 0;
+}
+
+.birthday {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.birthday select {
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    margin: 1px 0;
+}
+
+h5 {
+    margin: 10px 0;
+    color: #606770;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.gender .gender-item {
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    margin: 1px 0;
+}
+
+.gender-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input:focus {
+    border-style: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+i{
+    font-size: 17px;
+    color: #606770;
+    border-radius: 100%;
+    border-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+.text p{
+    font-size: 11.2px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #606770;
+}
+.text p a{
+    text-decoration: none;
+    color: #385898;
+}
+.text p a:hover{
+    text-decoration: underline;
+}
+form button{
+    width: 200px;
+    height: 35px;
+    background-color: #119f16;
+    color: #fff;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form button:hover{
+    color: #f0f2f5;
+}
+.login{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.login a{
+    text-decoration: none;
+    color: #1877f2;
+}
+footer{
+    width: 100%;
+    height: 100px;
+}
+.footer{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.langs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center; 
+    align-items: baseline; 
+}
+.langs a{
+    padding: 0 8px;
+    font-size: 12px;
+    color: #385898;
+    text-decoration: none;
+}
+.langs a:hover{
+    text-decoration: underline;
+}
+.langs button{
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
